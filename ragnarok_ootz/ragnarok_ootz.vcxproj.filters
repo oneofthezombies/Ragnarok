@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ootz">
+      <UniqueIdentifier>{578a9bc1-9dcf-4163-9cc4-4802162fc903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ootz\game objects">
+      <UniqueIdentifier>{f5cdbf3c-e16c-4319-afe0-cc7bef15746b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ootz\game objects\deriveds">
+      <UniqueIdentifier>{de001a3e-9091-4113-a5ec-6f2a15beae47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ootz\components">
+      <UniqueIdentifier>{aa308d6f-c077-4b0b-9169-4958a568a531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ootz\components\deriveds">
+      <UniqueIdentifier>{78eb285d-8afa-4d0e-8b49-44774d78e8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ootz\manager">
+      <UniqueIdentifier>{e3a7e071-4c64-44b5-aa82-35c00ae1da24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ootz\etc">
+      <UniqueIdentifier>{30b23b6b-7ee0-4777-8ef5-2999bce1697f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ragnarok">
+      <UniqueIdentifier>{7458db8a-246e-4afa-8c7a-17c64b524451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ragnarok\effect">
+      <UniqueIdentifier>{b401c4d0-c429-4d7d-8de1-cd656ca9c0d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ragnarok\character">
+      <UniqueIdentifier>{945570f9-24a0-445b-839a-c2d5131c6187}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game_manager.cpp">
+      <Filter>ootz\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="game_object_manager.cpp">
+      <Filter>ootz\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ootz\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>ootz\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>ootz\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="window_manager.cpp">
+      <Filter>ootz\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2.cpp">
+      <Filter>ootz\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="field_scene.cpp">
+      <Filter>ragnarok</Filter>
+    </ClCompile>
+    <ClCompile Include="game_object.cpp">
+      <Filter>ootz\game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ootz\components\deriveds</Filter>
+    </ClCompile>
+    <ClCompile Include="animator.cpp">
+      <Filter>ootz\components\deriveds</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>ootz\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>ootz\etc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game_object.h">
+      <Filter>ootz\game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>ootz\components</Filter>
+    </ClInclude>
+    <ClInclude Include="act_manager.h">
+      <Filter>ootz\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="game_manager.h">
+      <Filter>ootz\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="game_object_manager.h">
+      <Filter>ootz\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>ootz\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite_manager.h">
+      <Filter>ootz\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cool_timer.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ootz\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>ootz\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>ootz\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="window_manager.h">
+      <Filter>ootz\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>ootz\components\deriveds</Filter>
+    </ClInclude>
+    <ClInclude Include="animator.h">
+      <Filter>ootz\components\deriveds</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="field_scene.h">
+      <Filter>ragnarok</Filter>
+    </ClInclude>
+    <ClInclude Include="a_star.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="converter.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ootz\components\deriveds</Filter>
+    </ClInclude>
+    <ClInclude Include="render_info.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="direction.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="tag.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="text_reader.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="cursor.h">
+      <Filter>ragnarok</Filter>
+    </ClInclude>
+    <ClInclude Include="layer.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="lightning_spell.h">
+      <Filter>ragnarok</Filter>
+    </ClInclude>
+    <ClInclude Include="dot_damage.h">
+      <Filter>ragnarok</Filter>
+    </ClInclude>
+    <ClInclude Include="carrot_missile.h">
+      <Filter>ragnarok</Filter>
+    </ClInclude>
+    <ClInclude Include="critical_damage.h">
+      <Filter>ragnarok\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="damage.h">
+      <Filter>ragnarok\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="collider.h">
+      <Filter>ootz\components\deriveds</Filter>
+    </ClInclude>
+    <ClInclude Include="boss.h">
+      <Filter>ragnarok\character</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ragnarok\character</Filter>
+    </ClInclude>
+    <ClInclude Include="sound_manager.h">
+      <Filter>ootz\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ootz\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="ragnarok_sound.h">
+      <Filter>ragnarok</Filter>
+    </ClInclude>
+    <ClInclude Include="jin_boss.h">
+      <Filter>ragnarok\character</Filter>
+    </ClInclude>
+    <ClInclude Include="jin_boss_spell.h">
+      <Filter>ragnarok</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

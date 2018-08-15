@@ -1,0 +1,10 @@
+// number of act files
+8
+// 000 head
+// 001 body
+// 002 boss
+// 003 lightning
+// 004 carrot
+// 005 critical
+// 006 boss spell
+// 007 game over

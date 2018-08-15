@@ -1,0 +1,25 @@
+// number of sprites
+26
+// 000 head
+// 001 body
+// 002 map
+// 003 shadow
+// 004 boss
+// 008 carrot missile
+// 009 critical
+// 010 numbers
+// 011 hp status background
+// 012 hp status
+// 013 sp status
+// 014 lightning icon
+// 015 carrot missile icon
+// 016 chatting window fake
+// 017 skill window
+// 018 mini map
+// 019 boss head for mini map
+// 020 spell black icon
+// 021 boss spell
+// 022 game over
+// 023 cut scene
+// 024 chat window
+// 025 warn
