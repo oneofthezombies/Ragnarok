@@ -1,5 +1,5 @@
 # Ragnarok
-my first single RPG like game.  
+my first single RPG game.  
 
 - 2018.3.19 - 2018.3.28
 - based on Win32 API
