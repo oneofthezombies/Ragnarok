@@ -13,5 +13,5 @@ http://bit.ly/2MT6Nfp
 ![Screenshot1](https://github.com/oneofthezombies/Ragnarok/blob/master/Images/ragnarok_screenshot.png)
 
 # Video
-- demo video (1m 58s) 
+- demo video (1m 58s)  
 [![Video Label](http://img.youtube.com/vi/swys-TtQCl0/0.jpg)](https://youtu.be/swys-TtQCl0)
